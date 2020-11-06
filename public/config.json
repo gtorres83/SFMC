@@ -16,10 +16,10 @@
         "execute": {
             "inArguments": [
                 {
-                    "emailAddress": "{{InteractionDefaults.Email}}"
+                    "emailAddress": "hsdfasdfasfd"
                 },
                 {
-                    "phoneNumber": "{{Contact.Default.PhoneNumber}}"
+                    "phoneNumber": "fsadfasdfasdfa"
                 }
             ],
             "outArguments": [
@@ -27,21 +27,21 @@
                     "foundSignupDate": ""
                 }
             ],
-            "url": "https://some-endpoint.com/execute"
+            "url": "https://dummy.restapiexample.com/api/v1/employees"
         }
     },
     "configurationArguments": {
        "save": {
-           "url": "URI/for/your/activity/save"
+           "url": "https://dummy.restapiexample.com/api/v1/employees"
        },
        "publish": {
-           "url": "URI/for/your/activity/publish"
+           "url": "https://dummy.restapiexample.com/api/v1/employees"
        },
        "validate": {
-           "url": "URI/for/your/activity/validate"
+           "url": "https://dummy.restapiexample.com/api/v1/employees"
        },
        "stop": {
-           "url": "URI/for/your/activity/stop"
+           "url": "https://dummy.restapiexample.com/api/v1/employees"
        }
     },
     "wizardSteps": [
